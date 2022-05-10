@@ -66,3 +66,9 @@ button {
   color: White;
   cursor: pointer;
 }
+
+.worldClock {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
