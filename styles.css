@@ -33,8 +33,11 @@ body {
   left: 3%;
   font-size: 50px;
     font-family:'Koulen', cursive;
+    color: red;
 }
-
+#time{
+    color: black;
+}
 .lstCnt {
   position: absolute;
   padding: 10px 20px;
