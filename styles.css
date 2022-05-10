@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, white, blue);
+}
+
+.container {
+  position: relative;
+  height: 500px;
+  width: 800px;
+  background: white;
+  border-radius: 20px;
+}
+.data hr {
+  position: relative;
+  top: 370px;
+  width: 90%;
+  left: 5%;
+  border: solid;
+}
+.data h1 {
+  position: absolute;
+  padding: 10px 20px;
+  margin-top: 10px;
+  left: 3%;
+}
+
+.lstCnt {
+  position: absolute;
+  padding: 10px 20px;
+  top: 385px;
+  left: 5%;
+}
+.btn {
+  position: absolute;
+  padding: 10px 20px;
+  top: 420px;
+  left: 5%;
+}
+span {
+  font-size: large;
+  font-weight: 500;
+  font-family: 'Koulen', cursive;
+}
+button {
+  padding: 10px 30px; /*through padding we have done styling for the button */
+  /*Instead of using height width property for button use padding */
+  border: none;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  background: skyblue;
+  color: White;
+  cursor: pointer;
+}
